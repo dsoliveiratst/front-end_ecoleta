@@ -34,7 +34,7 @@ body::after {
 }
 #page-search-results header a span {
     margin-right: 16px;
-    background-image: url('../img/arrow-left.svg') no-repeat;
+    background-image: url('../img/arrow-left.svg') ; /* no-repeat | Estava evitando o ícone aparecer na page.*/
     background-size: 20px 20px ;
     display: flex;
 
